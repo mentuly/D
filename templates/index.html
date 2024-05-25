@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Мій улюблений колір</title>
+</head>
+<body>
+    <h1>Оберіть свій улюблений колір</h1>
+    <form id="color-form" action="/favorite_color" method="POST">
+        <label for="color">Колір:</label>
+        <select id="color" name="color">
+            <option value="red">Червоний</option>
+            <option value="blue">Синій</option>
+            <option value="green">Зелений</option>
+            <option value="yellow">Жовтий</option>
+            <option value="purple">Пурпурний</option>
+        </select>
+        <button type="submit">Вибрати</button>
+    </form>
+
+    <h2>Список улюблених кольорів</h2>
+    <ul id="favorite-colors"></ul>
+</body>
+</html>
